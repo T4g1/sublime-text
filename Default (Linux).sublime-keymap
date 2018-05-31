@@ -19,4 +19,5 @@
     { "keys": ["ctrl+k", "ctrl+_"], "command": "fold_by_level", "args": {"level": 8} },
     { "keys": ["ctrl+k", "ctrl+ç"], "command": "fold_by_level", "args": {"level": 9} },
     { "keys": ["ctrl+k", "ctrl+à"], "command": "unfold_all" },
+    { "keys": ["ctrl+q"] },
 ]

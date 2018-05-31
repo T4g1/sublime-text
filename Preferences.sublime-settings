@@ -2,11 +2,20 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro (Filter Spectrum).tmTheme",
 	"draw_white_space": "all",
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__",
+		".pytest_cache"
+	],
 	"font_face": "Consolas",
 	"font_size": 10,
 	"highlight_line": true,
@@ -17,6 +26,7 @@
 	"line_padding_bottom": 3,
 	"remember_full_screen": true,
 	"show_encoding": true,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
