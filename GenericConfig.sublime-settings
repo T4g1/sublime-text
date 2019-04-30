@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"godot",
+		"import",
+		"tres",
+		"tscn"
+	]
+}

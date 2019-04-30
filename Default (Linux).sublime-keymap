@@ -20,4 +20,9 @@
     { "keys": ["ctrl+k", "ctrl+ç"], "command": "fold_by_level", "args": {"level": 9} },
     { "keys": ["ctrl+k", "ctrl+à"], "command": "unfold_all" },
     { "keys": ["ctrl+q"] },
+    { "keys": ["ctrl+alt+m"], "command": "toggle_menu"},
+    { "keys": ["f5"], "command": "refresh_folder_list" },
+    { "keys": ["ctrl+super+b"], "command": "exec", "args": {"kill": true} },
+    { "keys": ["ctrl+y"], "command": "redo" },
+    { "keys": ["ctrl+shift+n"], "command": "clone_file" }
 ]

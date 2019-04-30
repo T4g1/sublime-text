@@ -2,7 +2,13 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro (Filter Spectrum).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"common_flags":
+	[
+		"-I/usr/include",
+		"-I$project_base_path/src",
+		"-I/usr/lib/clang/$clang_version/include"
+	],
 	"draw_white_space": "all",
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -17,7 +23,7 @@
 		".pytest_cache"
 	],
 	"font_face": "Consolas",
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -25,9 +31,14 @@
 	],
 	"line_padding_bottom": 3,
 	"remember_full_screen": true,
+	"rulers":
+	[
+		80
+	],
 	"show_encoding": true,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
 	"word_wrap": true
 }

@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"urllib",
+			"wget"
+		]
+	},
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Babel",
+		"Babel Snippets",
+		"Color Highlighter",
+		"DoxyDoxygen",
+		"EasyClangComplete",
+		"GDScript (Godot Engine)",
+		"Generic Config",
+		"GitGutter",
+		"HexViewer",
+		"knockdown",
+		"LaTeXTools",
+		"Maybs Quit",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"SublimeREPL",
+		"Theme - Monokai Pro"
+	]
+}

@@ -1,0 +1,5 @@
+{
+    "working_dir": "/home/t4g1/Documents/railster-os",
+    "file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+    "cmd": ["make", "ARCHI=x86", "BUILD=devel"],
+}

@@ -1,0 +1,17 @@
+{
+    "linux" : {
+        "python": "python",
+    },
+    "builder": "script",
+    "builder_settings" : {
+        "linux" : {
+            "script_commands": [
+                "pdflatex -synctex=1 -interaction=nonstopmode",
+                "makeglossaries",
+                "bibtex",
+                "pdflatex -synctex=1 -interaction=nonstopmode",
+                "pdflatex -synctex=1 -interaction=nonstopmode"
+            ]
+        }
+    }
+}
